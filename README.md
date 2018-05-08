@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/ByvStyledLocalizations.svg?style=flat)](https://cocoapods.org/pods/ByvStyledLocalizations)
 [![Platform](https://img.shields.io/cocoapods/p/ByvStyledLocalizations.svg?style=flat)](https://cocoapods.org/pods/ByvStyledLocalizations)
 
+Combination of [ByvLocalizationsIB](https://github.com/byvapps/ByvLocalizationsIB) and [ByvStylesIB](https://github.com/byvapps/ByvStylesIB).
+
+Read documentations before
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 

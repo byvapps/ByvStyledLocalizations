@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0282924E68C4D704B0B18703 /* Pods_ByvStyledLocalizations_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43389649300E297F47F1539 /* Pods_ByvStyledLocalizations_Example.framework */; };
+		3ADAC02A20A1C02100BEE49E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ADAC02C20A1C02100BEE49E /* Localizable.strings */; };
+		3ADAC03E20A1E1A300BEE49E /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 3ADAC03B20A1E1A300BEE49E /* Colors.json */; };
+		3ADAC03F20A1E1A300BEE49E /* Styles.json in Resources */ = {isa = PBXBuildFile; fileRef = 3ADAC03C20A1E1A300BEE49E /* Styles.json */; };
+		3ADAC04020A1E1A300BEE49E /* ZeplinExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADAC03D20A1E1A300BEE49E /* ZeplinExtensions.swift */; };
 		5BD1D6F58C64AEAD4D159F78 /* Pods_ByvStyledLocalizations_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A9F0629E9B50A0CBCDB3A /* Pods_ByvStyledLocalizations_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,14 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1091AA60DB43D6EFE1B49037 /* ByvStyledLocalizations.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ByvStyledLocalizations.podspec; path = ../ByvStyledLocalizations.podspec; sourceTree = "<group>"; };
+		1091AA60DB43D6EFE1B49037 /* ByvStyledLocalizations.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ByvStyledLocalizations.podspec; path = ../ByvStyledLocalizations.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		21B3E8CA38C1BFC3ABB0835F /* Pods-ByvStyledLocalizations_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyledLocalizations_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyledLocalizations_Example/Pods-ByvStyledLocalizations_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28A8451B2A224B256D69F335 /* Pods-ByvStyledLocalizations_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyledLocalizations_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyledLocalizations_Tests/Pods-ByvStyledLocalizations_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ADAC02B20A1C02100BEE49E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3ADAC02D20A1C02200BEE49E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3ADAC02E20A1C02300BEE49E /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3ADAC03B20A1E1A300BEE49E /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		3ADAC03C20A1E1A300BEE49E /* Styles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Styles.json; sourceTree = "<group>"; };
+		3ADAC03D20A1E1A300BEE49E /* ZeplinExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeplinExtensions.swift; sourceTree = "<group>"; };
+		3ADAC04320A1E61200BEE49E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ByvStyledLocalizations_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByvStyledLocalizations_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ByvStyledLocalizations_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByvStyledLocalizations_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +54,9 @@
 		619A9F0629E9B50A0CBCDB3A /* Pods_ByvStyledLocalizations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByvStyledLocalizations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5B9835EB7CCB6FC5917102 /* Pods-ByvStyledLocalizations_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyledLocalizations_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyledLocalizations_Example/Pods-ByvStyledLocalizations_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B43389649300E297F47F1539 /* Pods_ByvStyledLocalizations_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByvStyledLocalizations_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6659B98F94C10BCAC459BC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C6659B98F94C10BCAC459BC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E742B2FBD771371722A7BFD7 /* Pods-ByvStyledLocalizations_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyledLocalizations_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyledLocalizations_Tests/Pods-ByvStyledLocalizations_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EC9B6882777E7DA02EE37E91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC9B6882777E7DA02EE37E91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ADAC02920A1BFF200BEE49E /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				3ADAC02C20A1C02100BEE49E /* Localizable.strings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		3ADAC03A20A1E1A300BEE49E /* zeplin */ = {
+			isa = PBXGroup;
+			children = (
+				3ADAC03B20A1E1A300BEE49E /* Colors.json */,
+				3ADAC03C20A1E1A300BEE49E /* Styles.json */,
+				3ADAC03D20A1E1A300BEE49E /* ZeplinExtensions.swift */,
+			);
+			path = zeplin;
+			sourceTree = SOURCE_ROOT;
+		};
 		4BBA8BBD7325202068CC8DDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +132,8 @@
 		607FACD21AFB9204008FA782 /* Example for ByvStyledLocalizations */ = {
 			isa = PBXGroup;
 			children = (
+				3ADAC03A20A1E1A300BEE49E /* zeplin */,
+				3ADAC02920A1BFF200BEE49E /* Localizations */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -228,6 +258,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				eu,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -246,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				3ADAC03F20A1E1A300BEE49E /* Styles.json in Resources */,
+				3ADAC03E20A1E1A300BEE49E /* Colors.json in Resources */,
+				3ADAC02A20A1C02100BEE49E /* Localizable.strings in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -268,11 +303,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ByvStyledLocalizations_Example/Pods-ByvStyledLocalizations_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ByvLocalizations/ByvLocalizations.framework",
+				"${BUILT_PRODUCTS_DIR}/ByvLocalizationsIB/ByvLocalizationsIB.framework",
 				"${BUILT_PRODUCTS_DIR}/ByvStyledLocalizations/ByvStyledLocalizations.framework",
+				"${BUILT_PRODUCTS_DIR}/ByvStyles/ByvStyles.framework",
+				"${BUILT_PRODUCTS_DIR}/ByvStylesIB/ByvStylesIB.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvLocalizations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvLocalizationsIB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvStyledLocalizations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvStyles.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvStylesIB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRichString.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,6 +369,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3ADAC04020A1E1A300BEE49E /* ZeplinExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,10 +392,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3ADAC02C20A1C02100BEE49E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADAC02B20A1C02100BEE49E /* en */,
+				3ADAC02D20A1C02200BEE49E /* es */,
+				3ADAC02E20A1C02300BEE49E /* eu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				3ADAC04320A1E61200BEE49E /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

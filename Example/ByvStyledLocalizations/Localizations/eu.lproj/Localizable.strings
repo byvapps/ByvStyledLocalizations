@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  ByvLocalizations
+
+  Created by Adrian Apodaca on 28/4/17.
+  Copyright © 2017 CocoaPods. All rights reserved.
+*/
+
+/*  */
+"<titleBoldWhite>Hello</titleBoldWhite> <subtitleMessagesBold>and</subtitleMessagesBold> <titleBoldWhite>Wellcome</titleBoldWhite>" = "<titleBoldWhite>Kaixo</titleBoldWhite> <subtitleMessagesBold>eta</subtitleMessagesBold> <titleBoldWhite>Engi Etorri</titleBoldWhite>";
+
+/* */
+"formatText" = "%.2f puntu";
+
+/*  */
+"changeText" = "Hizkuntza aldatu";
+
+/*  */
+"first" = "Lehenengoa";
+
+/*  */
+"second" = "Bigarrena";
