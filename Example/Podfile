@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ByvStyledLocalizations_Example' do
+  pod 'ByvStyledLocalizations', :path => '../'
+
+  target 'ByvStyledLocalizations_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
